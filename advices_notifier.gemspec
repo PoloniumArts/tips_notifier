@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'advices_notifier/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'advices_notifier'
+  spec.name          = 'tips_notifier'
   spec.version       = AdvicesNotifier::VERSION
   spec.authors       = ['wwju']
   spec.email         = ['wwju@yandex.ru']
-  spec.description   = %q{Usefull advices using system notifications}
+  spec.description   = %q{Usefull tips using system notifications}
   spec.summary       = %q{Every 10 minutes gem fier system notification with usefull advice}
   # spec.homepage      = ""
   spec.license       = 'MIT'

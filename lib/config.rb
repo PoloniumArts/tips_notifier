@@ -1,4 +1,4 @@
-class AdvicesNotifier::Config
+class TipsNotifier::Config
   require 'yaml'
 
   HOME_DIR = ENV['HOME'] + '/'

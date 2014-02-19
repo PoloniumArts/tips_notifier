@@ -1,17 +1,17 @@
-class AdvicesNotifier::Notif
+class TipsNotifier::Notif
   require 'notifier'
 
   def run
     loop do
-      notify AdvicesNotifier::Advice.random
-      sleep AdvicesNotifier::Config::TIMEOUT
+      notify TipsNotifier::Advice.random
+      sleep TipsNotifier::Config::TIMEOUT
     end
   end
 
   def notify(message)
     Notifier.notify(
-      image: AdvicesNotifier::Config::IMAGE_PATH,
-      title: AdvicesNotifier::Config::TITLE,
+      image: TipsNotifier::Config::IMAGE_PATH,
+      title: TipsNotifier::Config::TITLE,
       message: message
     )
   end

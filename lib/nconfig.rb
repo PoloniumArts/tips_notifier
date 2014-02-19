@@ -1,4 +1,4 @@
-class AdvicesNotifier::NConfig
+class TipsNotifier::NConfig
   require 'yaml'
 
   # HOME_DIR = AdvicesNotifier::HOME_DIR

@@ -1,7 +1,7 @@
 require 'bundler/setup'
 $LOAD_PATH << './lib'
 
-module AdvicesNotifier
+module TipsNotifier
   require 'advice'
   require 'notif'
   require 'config'

@@ -1,4 +1,4 @@
-class AdvicesNotifier::Advice
+class TipsNotifier::Advice
   require 'csv'
 
   @@advices = []
@@ -9,6 +9,6 @@ class AdvicesNotifier::Advice
   end
 
   def self.read_from_file
-    @@advices = CSV.read(AdvicesNotifier::Config::ADVICES_FILE)
+    @@advices = CSV.read(TipsNotifier::Config::ADVICES_FILE)
   end
 end

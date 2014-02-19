@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    advices_notifier (0.0.8)
+    tips_notifier (0.0.1)
       notifier (~> 0.4.1)
 
 GEM
@@ -14,6 +14,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  advices_notifier!
   bundler (~> 1.3)
   rake
+  tips_notifier!
